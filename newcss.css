@@ -1,0 +1,129 @@
+*,body{
+    margin:0;
+    font-family: sans-serif, time new roman;
+}
+header {
+    background: #ffffcc;
+    border: 2px solid #000000;
+}
+header #_logo > #logo{
+    height: 100px;
+    padding-left: 500px;
+}
+nav {
+    background: #cccccc;
+    border-top:  2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+nav > #_home > ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+    }
+    nav  #_home > ul > li{
+         float: left;
+    }
+    nav > #_home > ul > li > a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+    nav > #_home > ul > li > #gt {
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 16px;        text-decoration: none;
+    }
+    nav > #_home > ul > li > a:hover {
+        background-color: #000000;
+    }
+    section {
+        background: #ffffff;
+        
+    }
+    section #_sp{
+        height:300px;
+        float:right;
+        width: 80%;
+        height: 460px;
+        background-color: #f7f9c4;
+        border-right: 1px solid #000000;
+        border-left: 1px solid #000000;
+}
+section #_sp > #adidas{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 300px;
+    height: 200px;
+}
+section #_sp > #nike{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 300px;
+    height: 200px;
+}
+section #_sp > #vans{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 300px;
+    height: 200px;
+}
+section #_sp > #converse{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 300px;
+    height: 200px;
+}
+section #_sp > #con1{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 300px;
+    height: 200px;
+}
+section #_sp > #con2{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 300px;
+    height: 200px;
+}
+section #bottom {
+        float: right;
+        width: 100%
+    }
+ 
+    section  #bottom > p{
+    padding: 4px;
+    background: #660000;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000
+    }
+
+#list > ul{
+        padding-top: 20px;
+        background: #ffcccc;
+        list-style-type: none;
+        width: 220px;
+        height: 140px;
+        
+        }
+#list > ul > li{
+        padding-top:5px;    
+        }        
+#list > ul > li > a{
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 10px;
+        color: #660000;
+        }
+#list > ul > li > a:hover{
+           color: #0000cc;
+        }
+
